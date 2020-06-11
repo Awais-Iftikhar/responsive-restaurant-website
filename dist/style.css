@@ -1,0 +1,1072 @@
+body{
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Lora", Georgia, serif;
+}
+
+
+p, span {
+    font-family: "Poppins", Arial, sans-serif; }
+  
+.carousel-inner .carousel-item{
+    height: 100vh;
+}
+
+.navbar-dark{
+    background-color: transparent;
+    /* color: black !important; */
+    /* border-color: transparent; */
+    transition: 0.5s ease-in;
+}
+
+
+
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: none !important;
+}
+.bar-style{
+    font-size: 30px;
+    color: #ec1d25;
+}
+.navbar-nav li a{
+    font-size: 18px;
+    margin: 0px 10px;
+
+
+}
+
+
+.navbar-nav li a.scrolled :hover{
+    background-color: #ec1d25 !important;
+    color: white !important; 
+
+}
+
+
+/* .navbar-nav li:hover a {
+   color : red !important;
+} */
+
+
+.navbar .navbar-brand{
+    font-size: 40px;
+    /* font-weight: 900; */
+}
+
+/* .navbar-collapse .navbar-nav{
+    background-color: rgba(0, 0, 0,1);
+} */
+
+/* .navbar-collapse .navbar-nav {
+    background-color: rgba(0, 0, 0,0.5);
+    text-align: center;
+} */
+
+/* .navbar-dark .navbar-toggler { */
+    /* color: red !important;
+    /* border-color: rgba(0,0,0,.1); */
+    /* border-color: black;  */
+    /* background-color: rgba(0,0,0,0.6); */
+/* } */
+.banner{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.banner-bg{
+    background-color: rgba(0, 0, 0,0.6);
+    height: 100vh;
+}
+
+.carousel-caption{
+    padding: 216px 0;
+}
+
+
+.carousel-caption h1{
+    margin-bottom: 30px;
+    font-size: 44px;
+    font-weight: 400;
+    font-family: "Lora", Georgia, serif;
+}
+
+.carousel-caption p{
+    color: #fff;
+    font-family: "Lora", Georgia, serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.btn-cover{
+    padding: 15px 25px !important;
+    background-color: white;
+    color: #ec1d25;
+    text-transform: uppercase;
+    border: 1px solid white ;
+    border-radius: 10px;
+}
+.btn-cover:hover {
+    padding: 15px 25px !important;
+    background-color: #ec1d25;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #ec1d25 
+}
+/* .navbar {
+    background: transparent;
+}
+.navbar .navbar-brand{
+    color: yellow;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.navbar-nav li a {
+    color: yellow;
+    margin: 0px 10px;
+}
+.nav-item a:hover{
+    color: rgb(194, 134, 112);
+    border-bottom: 1px solid black;
+
+}
+
+ .navbar-toggler {
+    color: yellow;
+} */
+
+
+
+
+.carousel-item img{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* background-position: center center; */
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    
+}
+.carousel-indicators .active{
+    background-color :#ec1d25;
+}
+
+/* section 1 */
+
+
+.maincontent{
+ height: 100vh;
+ width: 100%;
+ /* background-color: wheat; */
+ padding: 2rem 0;
+
+
+}
+.maincontent .title h2{
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.maincontent .title p{
+    margin-bottom: 1.5em;
+    font-weight: 400;
+    color: #969696;
+
+}
+
+.welcome-intro{
+    padding: 6rem 0;
+}
+
+.welcome-left{
+    padding: 3rem 0;
+}
+.welcome-left span{
+    font-size: 30px;
+    font-style: italic;
+    font-family: "Lora", Georgia, serif;
+    color: #ec1d25;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.welcome-left h2{
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.welcome-left p{
+
+    margin-bottom: 1.5em;
+    font-weight: 400;
+    color: #969696;
+
+}
+.welcome-right{
+    overflow: hidden;
+    /* max-width: 390px;
+    width: 100%; */
+    border-radius: 10%;
+
+
+}
+.welcome-right img{
+    transition: all 1s ease-in;
+}
+
+.welcome-right:hover img{
+    transform: scale(1.1);
+}
+
+
+.logo-img{
+
+    width: 75px;
+    height: 75px;
+    margin-bottom: 20px;
+
+}
+
+.innerimg{
+    overflow: hidden;
+    /* height: 250px; 
+    width: 200px; */
+    height: 250px;
+}
+.innerimg img{
+    
+    transition: all 1.5s ease-out;
+    
+     
+}
+
+.innerimg:hover img{
+    transform: scale(1.2);
+}
+
+.content{
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    right: 25%;
+    bottom: 50%;
+}
+.content h3{
+    
+    color: white;
+    background-color: rgba(0, 0, 0,0.5);
+    text-align: center;
+}
+
+
+/* customers section */
+
+.customers{
+    height: 100vh;
+    /* background-image: url(./images/bg-intro-01.jpg); */
+    background-image: url(./images/img1.jpg);
+
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.customer-reviews{
+    /* position: absolute;  */
+    padding-top : 100px;
+    color: white;
+    text-transform: uppercase;
+}
+.customer-testimonial{
+    margin-top: 5rem;
+    color: white;
+
+}
+.customer-testimonial img{
+
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px !important;
+    height: 150px !important;
+
+    
+}
+.blockquote {
+    margin-top: 2rem;
+}
+
+.owl-dots{
+
+    text-align: center;
+    margin-top: 40px;
+
+}
+.owl-dots button{
+     border: 5px solid white !important;
+     border-radius: 50%;
+     margin: 0 5px;
+}
+.owl-dots  button:active{
+    border: 5px solid green !important;
+    border-color: violet;
+}
+
+
+
+/* .hotel-intro{
+    background-image: url(./images/bg-intro-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.hotel-intro .title{
+    padding: 10rem 0;
+    text-align: center;
+    color: white;
+
+} */
+
+
+.hotel-cover{
+    background-image: url(./images/bg-intro-01.jpg);
+    background-attachment: fixed;
+}
+.hotel-cover-title{
+    padding: 160px 0;
+    background-color: rgba(0, 0, 0,0);
+    text-align: center;
+}
+.hotel-cover-title h3{
+    color: white;
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    
+}
+.hotel-cover-title span{
+    font-size: 30px;
+    
+    font-style: italic;
+    font-family: "Lora", Georgia, serif;
+    color: #ec1d25;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+.hotel-details{
+    padding: 8rem 0;
+}
+.hotel-img{
+    overflow: hidden;
+    border-radius: 10%;
+}
+.hotel-img img{
+    transition: all 1s ease-in;
+}
+
+.hotel-img:hover img{
+    transform: scale(1.1);
+}
+
+.hotel-text-details{
+    padding-top: 30px;
+}
+.hotel-text-details a{
+    color: #ec1d25;
+    text-decoration: none;
+}
+
+.hotel-text-details h2{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.hotel-text-details p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.menu-cover{
+    background-image: url(./images/bg-intro-01.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.menu-cover-title{
+    text-align: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu-cover-title  h1 {
+    font-size: 44px;
+    font-weight: 400;
+    font-family: "Lora", Georgia, serif;
+}
+
+.menu-cover-title span{
+    font-size: 30px;
+    
+    font-style: italic;
+    font-family: "Lora", Georgia, serif;
+    color: #ec1d25;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+
+.menurow{
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.inner-items{
+    display: flex;
+    align-items: flex-end;
+}
+.inner-items .pattern{
+    background-image: url(./images/pattern3.png);
+    height: 2px;
+    background-repeat: repeat;
+    flex-grow: 1;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.inner-items a{
+    color: black;
+    /* font-family: Poppins;
+    font-weight: 300; */
+    /* font-size: 20px; */
+    /* text-transform: capitalize; */
+    text-decoration: none;
+
+
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.starters-menu h3{
+    padding-bottom: 25px;
+}
+.menu-items {
+    margin-bottom: 32px;
+}
+.menu-items span{
+    font-weight: 400;
+    font-size: 18px;
+    color: #7d7d7d;
+}
+.lunch-cover{
+    background-image: url(./images/cover_bg_2.jpg);
+    background-attachment: fixed;
+}
+.lunch-cover-title{
+    padding: 160px 0;
+    background-color: rgba(0, 0, 0,0.7);
+}
+
+
+.lunch-cover-title h1 {
+    color: white;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 400;
+    font-family: "Lora", Georgia, serif;
+}
+
+
+.p-lunch{
+    padding: 100px 0;
+}
+
+.lunch-img{
+    overflow: hidden;
+    height: 170px;
+    width: 200px;
+    
+}
+.lunch-img img{
+    transition: all 1s ease-in;
+}
+
+.lunch-img:hover img{
+    transform: scale(1.1);
+}
+
+.lunch-title h3{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.lunch-desc p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #7d7d7d;
+}
+.price{
+    font-size: 24px;
+    color: #404044;
+}
+
+
+/* .lunch-details{
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.lunch-img{
+    width: 160px;
+    height: 120px;
+}
+
+.inner-lunch-details{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+
+.dinner-cover{
+    background-image: url(./images/img1.jpg);
+    background-attachment: fixed;
+    background-position: cover;
+}
+.dinner-cover-title{
+    padding: 160px 0;
+    background-color: rgba(0, 0, 0,0.5);
+}
+.dinner-cover-title h1{
+    color: white;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 400;
+    font-family: "Lora", Georgia, serif;
+    
+    
+}
+
+
+/* about section */
+
+.about-cover{
+    background-image: url(./images/cover_bg_2.jpg);
+    background-attachment: fixed;
+    
+    height: 100vh;
+}
+.about-cover-title{
+    background-color: rgba(0, 0, 0,0.7);
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.about-cover-title h1 {
+    color: white;
+    font-size: 44px;
+    font-weight: 400;
+    font-family: "Lora", Georgia, serif;
+}
+.about-cover-title span{
+    font-size: 30px;
+    
+    font-style: italic;
+    font-family: "Lora", Georgia, serif;
+    color: #ec1d25;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.about-section{
+    padding: 6rem 0;
+}
+
+.about-section span{
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-family: "Lora", Georgia, serif;
+    color: #ec1d25;
+    font-weight: 400;
+    
+}
+
+.about-section h2{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-size: 44px;
+    font-weight: 400;
+}
+.about-section p{
+    font-weight: 400;
+    color: #969696;
+
+}
+.about-img img{
+    border-radius: 10%;
+}
+
+.about-section .p-t{
+    padding-top: 170px;
+}
+
+.about-section-recipees{
+    padding: 3rem 0;
+}
+
+.about-section-recipees span{
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 5px;
+    font-family: "Lora", Georgia, serif;
+    color: #ec1d25;
+    font-weight: 400;
+    
+}
+
+.about-section-recipees h2{
+    margin-bottom: 4rem;
+    font-size: 44px;
+    font-weight: 400;
+}
+.about-section-recipees p{
+    font-weight: 400;
+    color: #969696;
+
+}
+.about-section-recipees .p-t{
+    padding-top: 170px;
+}
+
+.about-place{
+
+
+    background-image: url(./images/bg-intro-01.jpg);
+    background-attachment: fixed;
+    background-position: cover;
+    
+}
+.about-place-text{
+    /* padding: 290px 0; */
+    /* background-color: rgba(0, 0, 0,0.7);
+    text-align: center; */
+    padding: 160px 0;
+    /* height: 500px; */
+    background-color: rgba(0, 0, 0,0.5);
+    text-align: center;
+    
+}
+
+.about-place-text h1 {
+    color: white;
+    font-size: 44px;
+    font-weight: 400;
+    font-family: "Lora", Georgia, serif;
+}
+.about-place-text span{
+    font-size: 30px;
+    
+    font-style: italic;
+    font-family: "Lora", Georgia, serif;
+    color: #ec1d25;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+.about-chefs{
+    padding: 2rem 0;
+}
+
+
+.about-chefs .card{
+    text-align: center;
+}
+
+.card-body h3{
+    font-size: 20px;
+}
+.card-body span{
+    font-size: 16px;
+    color: #969696;
+
+}
+.card-body p{
+    margin-top: 1rem;
+    font-size: 18px;
+    color: #969696;
+}
+
+
+.contact-us{
+    padding: 8rem 0;
+}
+
+.contact-section{
+    text-align: center;
+}
+.contact-section h2{
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+.contact-section p{
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #969696;
+
+}
+#textarea{
+    height: 250px;
+}
+
+#footer{
+    background-color: #303030;
+    padding: 5rem 0;
+}
+
+#footer h2{
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 2em;
+}
+
+#footer p{
+    color: #999999;
+    margin-bottom: 1.5em;
+    font-weight: 400;
+}
+
+.social-icons{
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 2em;
+
+}
+.social-icons-h a :hover{
+    color: black;
+    background-color: #ec1d25;
+    
+
+}
+.subscribe-btn{
+    text-align: center;
+    padding: 10px !important;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid black ;
+    border-radius: 10px;
+
+}
+.subscribe-btn:hover{
+    background-color: #ec1d25;
+    color: white;
+    border: 1px solid #ec1d25 ;
+    border-radius: 10px;
+
+
+    
+
+}
+
+#copyrightfooter{
+    background-color: black;
+    color: #999999;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.footer-col{
+    text-align: center;
+}
+.footer-col p{
+    margin: 0;
+}
+
+
+/* reservation */
+
+.reserve-cover{
+    background-image: url(./images/bg-cover-video-02.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.reserve-cover-title{
+    background-color: rgba(0, 0, 0,0.7);
+    text-align: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.reserve-table{
+    padding: 130px 0;
+}
+.booking-details{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.booking-details h2{
+    color: #404044;
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.booking-details span{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Lora", Georgia, serif;
+    /* color: #817676; */
+    color: #ec1d25;
+    text-transform: capitalize;
+}
+.reserve-table label{
+    font-weight: normal;
+    color: #7d7d7d;
+}
+
+.btn-reserve{
+    text-align: center;
+    padding: 15px 25px !important;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid black ;
+    border-radius: 10px;
+}
+.btn-reserve:hover {
+    padding: 15px 25px !important;
+    background-color: #ec1d25;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #ec1d25 
+}
+
+
+
+.contact-cover{
+    background-image: url(./images/cover_bg_1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.contact-cover-title{
+    background-color: rgba(0, 0, 0,0.7);
+    text-align: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.arrow{
+    top: 90%;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+}
+.arrow i{
+    color: white;
+    font-size: 40px;
+}
+
+
+
+@media only screen and (min-width: 990px){
+
+    
+    .navbar-dark.scrolled {
+        background-color: white !important;
+    }
+
+
+    
+    .navbar-nav li a.scrolled{
+        font-size: 18px;
+        margin: 0px 10px;
+    
+        color: black !important;
+    
+    }
+    
+     .navbar-nav .active .scrolled  {
+        color: #ec1d25 !important;
+    }
+}
+
+@media only screen and (max-width: 980px){
+
+    
+
+    .navbar-collapse ul{
+        background-color: rgba(0,0,0,0.6);
+    }
+    
+    .navbar-dark.scrolled {
+        background-color: white !important;
+    }
+
+    .navbar-dark.scrolled ul{
+        background-color: white;
+    }
+    
+    .navbar-nav li a.scrolled{
+        font-size: 18px;
+        margin: 0px 10px;
+    
+        color: black !important;
+    
+    }
+    
+     .navbar-nav .active .scrolled  {
+        color: #ec1d25 !important;
+    }
+    .arrow{
+        top: 94%;
+    }
+    .carousel-caption{
+        padding: 200px 0;
+    }
+    .carousel-caption h1{
+        font-size: 36px;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+    }
+    .carousel-caption  .btn-cover{
+        padding: 12px 14px !important;
+    }
+    /* .fixed-top {
+        position: unset !important;
+    }
+    .navbar-dark{
+        background-color: #343a40;
+    } */
+    
+    .navbar-collapse .navbar-nav {
+    /* background-color: rgba(0, 0, 0,0.1); */
+    text-align: center;
+    }
+
+
+    
+
+    
+    
+    
+}
+
+@media only screen and (max-width: 767px){
+    .maincontent{
+        padding:  0;
+        height: 50%;
+    }
+    .welcome-intro{
+        padding: 4rem 0;
+    }
+    .innerimg{
+        margin-bottom: 25px;
+    }
+    .customers {
+        height: 770px;
+    }
+    .hotel-details .col-md-4{
+        margin-bottom: 2rem;
+        padding: 0 2rem;
+    }
+
+    
+    
+}
+
+@media only screen and (max-width: 490px){
+
+    .reserve-cover{
+        /* background-image: url(./images/cover_bg_2.jpg); */
+        background-image: url(./images/bg-intro-01.jpg);
+        background-repeat: no-repeat;
+        height: 100vh;
+
+        
+                
+        
+    }
+    .reserve-cover-title{
+        background-color: rgba(0, 0, 0,0.1);
+
+    }
+    .contact-cover{
+        /* background-image: url(./images/bg-intro-01.jpg); */
+        background-image: url(./images/bg-intro-01.jpg);
+
+    }
+   
+
+    .contact-cover-title{
+        background-color: rgba(0, 0, 0,0.1);
+    }
+
+    .about-place{
+
+
+        background-image: url(./images/blog-2.jpg);
+        background-attachment: fixed;
+        background-position: cover;
+        
+    }
+    
+
+    .lunch-desc p{
+        margin: 0;
+
+    }
+}
